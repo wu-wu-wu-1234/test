@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>第一个JavaScript程序</title>
+</head>
+<body>
+<h1>我的Web页面</h1>
+
+<p id = "demo">一个段落</p>
+	<script type = "text/javascript">
+		document.getElementById("demo").innerHTML = "段落已修改";
+		function myFunction()
+		{
+			var a = 10;
+			var b = 12;
+			var c = a + b;
+			document.getElementById("demo").innerHTML = "我的函数"+c;
+		}
+	</script>
+<button type = "button" onclick = "myFunction()"> 尝试一下</button>
+</body>
+</html>
